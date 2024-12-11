@@ -1,6 +1,6 @@
 export default function GuestHomeSection1() {
     return(
-        <main className="home-content1">
+        <main className="home-content1 mar-bottom-l1">
             <section className="home-content1-texts">
                 <p className="home-content1-title color-pr-yellow ff-markazi">
                     Little Lemon

@@ -1,10 +1,11 @@
 .footer1 {
     width: 100%;
     box-sizing: border-box;
-    background-color: var(--white2);
+    background-color: var(--pr-green);
     padding: 50px 20vw;
     display: flex;
     justify-content: space-between;
+    color: var(--white);
 }
 .footer1-logo img {
     height: 100%;
@@ -17,6 +18,9 @@
 }
 .footer1-link {
     text-decoration: none;
-    color: var(--black);
     font-size: var(--text-m2);
+    color: var(--white2);
+}
+.footer1-link:hover {
+    text-decoration: underline;
 }

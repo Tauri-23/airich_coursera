@@ -8,6 +8,7 @@
 }
 .primary-btn-yellow1 {
     background: var(--pr-yellow);
+    color: var(--pr-green);
 }
 
 
@@ -15,7 +16,8 @@
 
 /* Product Card */
 .product-card {
-    background: var(--white2);
+    background: var(--white1);
+    filter: drop-shadow(0 0 5px var(--grey1));
     border-radius: 10px;
     box-sizing: border-box;
     overflow: hidden;

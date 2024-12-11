@@ -2,7 +2,7 @@ import ProductCard1 from "../../cards/product_card1";
 
 export default function GuestHomeSection2({menuItems}) {
     return (
-        <main className="home-content2">
+        <main className="home-content2 mar-bottom-l1">
             <section className="d-flex j-c-between mar-bottom-1">
                 <p className="text-l3 fw-bold ff-karla">Specials</p>
                 <button className="primary-btn-yellow1 align-items-center">Online Menu</button>

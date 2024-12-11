@@ -8,7 +8,7 @@ export default function Navigation1() {
             </Link>
             <ul className="navigation1-links">
                 <li>
-                    <Link className="navigation1-link">
+                    <Link className="navigation1-link active">
                         HOME
                     </Link>
                 </li>

@@ -8,7 +8,7 @@ export default function Footer1() {
             </figure>
 
             <section className="d-flex flex-direction-y">
-                <div className="text-m1 mar-bottom-2">Company</div>
+                <div className="text-m1 fw-bold mar-bottom-2 color-white2">Company</div>
 
                 <ul className="footer1-links">
                     <li>
@@ -30,7 +30,7 @@ export default function Footer1() {
             </section>
 
             <section className="d-flex flex-direction-y">
-                <div className="text-m1 mar-bottom-2">Contact Us</div>
+                <div className="text-m1 mar-bottom-2 fw-bold color-white2">Contact Us</div>
                 <ul className="footer1-links">
                     <li className="footer1-link">
                         <p className="text-m2 fw-bold">Address</p>
@@ -48,7 +48,7 @@ export default function Footer1() {
             </section>
 
             <section className="d-flex flex-direction-y">
-                <div className="text-m1 mar-bottom-2">Social Media Links</div>
+                <div className="text-m1 mar-bottom-2 fw-bold color-white2">Social Media Links</div>
                 <ul className="footer1-links">
                     <li>
                         <Link className="footer1-link">Facebook</Link>
