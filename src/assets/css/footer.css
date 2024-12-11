@@ -1,0 +1,22 @@
+.footer1 {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--white2);
+    padding: 50px 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1-logo img {
+    height: 100%;
+}
+.footer1-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+.footer1-link {
+    text-decoration: none;
+    color: var(--black);
+    font-size: var(--text-m2);
+}

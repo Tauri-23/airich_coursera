@@ -1,0 +1,31 @@
+.navigation1 {
+    width: 100%;
+    padding: 15px 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
+.navigation1-logo {
+    height: 50px;
+    position: relative;
+}
+.navigation1-logo img {
+    position: absolute;
+    height: 100%;
+}
+.navigation1-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.navigation1-link  {
+    text-decoration: none;
+    color: var(--black);
+}

@@ -1,0 +1,44 @@
+.primary-btn-yellow1 {
+    padding: 10px 10px;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    font-size: var(--text-m3);
+}
+.primary-btn-yellow1 {
+    background: var(--pr-yellow);
+}
+
+
+
+
+/* Product Card */
+.product-card {
+    background: var(--white2);
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.product-card.three {
+    width: calc(100% / 3 - 20px);
+}
+
+.product-card-pic {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-card-pic img {
+    height: 100%;
+    position: absolute;
+}
+.product-card-texts {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+}
