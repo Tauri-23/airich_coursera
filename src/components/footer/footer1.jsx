@@ -12,19 +12,19 @@ export default function Footer1() {
 
                 <ul className="footer1-links">
                     <li>
-                        <Link className="footer1-link">Home</Link>
+                        <Link to={''} className="footer1-link">Home</Link>
                     </li>
                     <li>
-                        <Link className="footer1-link">About</Link>
+                        <Link to={''} className="footer1-link">About</Link>
                     </li>
                     <li>
-                        <Link className="footer1-link">Menu</Link>
+                        <Link to={''} className="footer1-link">Menu</Link>
                     </li>
                     <li>
-                        <Link className="footer1-link">Reservation</Link>
+                        <Link to={'/reservations'} className="footer1-link">Reservation</Link>
                     </li>
                     <li>
-                        <Link className="footer1-link">Order Online</Link>
+                        <Link to={''} className="footer1-link">Order Online</Link>
                     </li>
                 </ul>
             </section>

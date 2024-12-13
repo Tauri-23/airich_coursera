@@ -12,7 +12,7 @@ export const GeneralConfirmationModal1 = ({ title, note, positiveBtnText, handle
                 {/* Desc */}
                 <div className="text-center mar-bottom-1 d-flex flex-direction-y gap3">
                     <div className="text-m1 fw-bold w-100">{title}</div>
-                    <div className="text-m2 w-50 m-auto">{note}</div>
+                    <div className="text-m2 w-50 m-auto" dangerouslySetInnerHTML={{__html: note}}/>
                 </div>
 
                 {/* Btns */}
