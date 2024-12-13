@@ -1,0 +1,14 @@
+.reservation-content1 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 20vw;
+}
+
+.reservation-form1 {
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid var(--pr-green);
+    margin: auto;
+}

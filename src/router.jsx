@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import GuestDefault from "./views/default";
 import GuestHome from "./views/home";
+import GuestReservations from "./views/reservations";
 
 const router = createBrowserRouter([
     /*
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <GuestHome/>
+            },
+            {
+                path: "reservations",
+                element: <GuestReservations/>
             }
         ]
     }

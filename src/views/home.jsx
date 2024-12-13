@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import GuestHomeSection1 from "../components/sections/guest/home_section_1";
 import GuestHomeSection2 from "../components/sections/guest/home_section2";
 import Footer1 from "../components/footer/footer1";
+import { useOutletContext } from "react-router-dom";
 
 
 export default function GuestHome() {
+    const {setActiveNavLink} = useOutletContext();
     const [menuItems] = useState([
         {
             id: 1,
@@ -28,6 +30,14 @@ export default function GuestHome() {
             image: 'lemon dessert.jpg'
         },
     ]);
+
+
+
+    useEffect(() => {
+        setActiveNavLink("Home");
+    }, []);
+
+
 
     return (
         <>

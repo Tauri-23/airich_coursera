@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function GuestHomeSection1() {
     return(
         <main className="home-content1 mar-bottom-l1">
@@ -14,9 +16,9 @@ export default function GuestHomeSection1() {
                     incididunt ut labore et dolore magna aliqua.
                 </p>
 
-                <button className="primary-btn-yellow1">
+                <Link to={'/reservations'} className="primary-btn-yellow1 ff-karla">
                     Reserve a Table
-                </button>
+                </Link>
             </section>
             <div className="home-content1-pic">
                 <img src="/media/pics/restauranfood.jpg" alt="content-1-pic" />

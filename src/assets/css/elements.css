@@ -5,6 +5,7 @@
     cursor: pointer;
     border: none;
     font-size: var(--text-m3);
+    text-decoration: none;
 }
 .primary-btn-yellow1 {
     background: var(--pr-yellow);
@@ -43,4 +44,17 @@
     padding: 30px;
     box-sizing: border-box;
     position: relative;
+}
+
+
+
+
+
+/* Forms */
+.form-field-1 {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background: var(--white2);
+    font-size: 1rem;
 }
