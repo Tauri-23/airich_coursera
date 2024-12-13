@@ -24,3 +24,32 @@
 .footer1-link:hover {
     text-decoration: underline;
 }
+
+
+
+
+@media (min-width: 1500px) and (max-width: 1799px) {
+    .footer1 {
+        padding: 50px 15vw;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1499px) {
+    .footer1 {
+        padding: 50px 10vw;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 899px) {
+    .footer1 {
+        padding: 50px 5vw;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .footer1-links {
+        text-align: center;
+        align-items: center;
+    }
+}

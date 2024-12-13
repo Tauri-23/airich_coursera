@@ -7,7 +7,7 @@ export default function GuestHomeSection2({menuItems}) {
                 <p className="text-l3 fw-bold ff-karla">Specials</p>
                 <button className="primary-btn-yellow1 align-items-center">Online Menu</button>
             </section>
-            <section className="d-flex gap1">
+            <section className="home-content2-menu-container">
                 {menuItems.map(menu => (
                     <ProductCard1 key={menu.id} menu={menu}/>
                 ))}

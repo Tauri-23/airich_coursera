@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import GuestHomeSection1 from "../components/sections/guest/home_section_1";
 import GuestHomeSection2 from "../components/sections/guest/home_section2";
-import Footer1 from "../components/footer/footer1";
 import { useOutletContext } from "react-router-dom";
 
 
@@ -43,7 +42,6 @@ export default function GuestHome() {
         <>
             <GuestHomeSection1/>
             <GuestHomeSection2 menuItems={menuItems}/>
-            <Footer1/>        
         </>
     )
 }
